@@ -1,0 +1,43 @@
+* { /*通配符*/
+	padding: 0;
+	margin: 0;
+
+	/*改变盒子的计算方式*/
+	/*针对移动端的设置*/
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-tap-highlight-color:transparent;
+}
+
+a , a:hover a:focus {
+	color: #333;
+	text-decoration: none;
+	outline: none;
+}
+
+ul , ol {
+	list-style: none;
+}
+
+input , textarea {
+	border: 0;
+	outline: none;
+}
+
+/* 浮动*/
+.f_left {
+	float: left;
+}
+
+.f_right {
+	float: right;
+}
+
+/* 清除浮动*/
+.clearfix::before , .clearfix::after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

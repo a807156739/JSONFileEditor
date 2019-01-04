@@ -1,0 +1,91 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    color: #aaa;
+}
+
+.top {
+    height: 30px;
+}
+
+.middle {
+    flex: 1;
+    height: auto;
+    overflow: auto;
+}
+
+.middle .tree {
+    height: 100%;
+}
+
+.bottom {
+    height: 30%;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.box {
+    height: 100%;
+    background: #292929;
+    margin: 0;
+    border: 1px solid rgb(163, 163, 163);
+    color: aliceblue;
+}
+
+.ztree {
+    position: absolute;
+    left: -20px;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+.ztree ul {
+    position: relative;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.zli {
+    line-height: 16px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+a {
+    color: #aaa;
+}
+
+.info ul {
+    height: 99%;
+    padding: 2px;
+    margin: 0px;
+    list-style: none;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.info ul::-webkit-scrollbar {
+    display: none;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/* .info ul>li{
+    
+    overflow-y: auto;
+    overflow-x: hidden;
+  } */

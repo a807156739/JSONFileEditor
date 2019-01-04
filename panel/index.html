@@ -1,0 +1,43 @@
+<head>
+</head>
+<div class="layout vertical">
+  <div class="layout horizontal top">
+    <ui-button class="blue" id="selectFileDir">选择目录</ui-button>
+    <ui-button class="green" id="selectExcel">导入Excel自动转成Json</ui-button>
+  </div>
+  <div class="layout horizontal" style="height: 70%;">
+    <div class="layout vertical" style="width: 18%;margin-right: 1%;">
+      <h4>File目录</h4>
+      <div class="flex-1 layout vertical box">
+          <div class="flex-1 layout vertical ztree">
+              <ul class="" id="lis">
+                <li id="li" class="zli"><a href="javascript:;" id="a"><span class="layout horizontal center"></span></a></li>
+              </ul>
+          </div>
+      </div>
+    </div>
+    <div class="layout vertical" style="width: 82%;">
+      <div class="layout horizontal justified center" style="width: 100%;">
+        <h4>FileInfo编辑：</h4>
+        <ui-input class="flex-1" style="color: rgb(250, 189, 99)" disabled placeholder="正在编辑的文件" id="file"></ui-input>
+        <ui-input class="flex-1" style="color: rgb(250, 189, 99)" placeholder="内容搜索..." id="search"></ui-input>
+        <ui-button class="green end-justified" id="save" >保存</ui-button>
+      </div>
+      <div class="layout horizontal justified center info" style="width: 100%;height: 100%;">
+        <div style="width:3%;height: 100%;">
+          <ul id="rows">
+            <li id="row">1</li>
+          </ul>
+        </div>
+        <textarea class="flex-1 text" id="text" style="height:100%;background:#292929;color: rgb(250, 189, 99);border: 1px solid rgb(163, 163, 163)"></textarea>
+      </div>
+    </div>
+  </div>
+  <div class="layout horizontal"></div>
+  <div class="layout horizontal justified center" style="width: 100%;">
+    <h4>打印日志</h4>
+    <ui-button class="green end-justified" id="clear" >清空日志</ui-button>
+  </div>
+  <textarea class="self-stretch" id="error" style="width:100%;height:20%;background:#292929;color: red;border: 1px solid rgb(163, 163, 163)"></textarea>
+  </div>
+</div>
