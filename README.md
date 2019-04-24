@@ -20,17 +20,17 @@
 - 第一行在单元格设置ignore忽略值，unique唯一值
 #### 例如：
 
-ignore |  |  |    
--|-|-|-  
-id | name | age | sex 
-0 | xiaoming | 18 | man  
-1 | xiaohong | 17 | woman  
+| ignore |  |  |  |    
+-|-|-|-
+| id | name | age | sex |  
+| 0 | xiaoming | 18 | man |  
+| 1 | xiaohong | 17 | woman |  
 
-  | unique |  |    
+|  | unique |  |  |  
 -|-|-|-  
-id | name | age | sex   
-0 | xiaohong | 18 | man  
-1 | xiaohong | 17 | woman  
+| id | name | age | sex |  
+| 0 | xiaohong | 18 | man |  
+| 1 | xiaohong | 17 | woman |  
 
 id | name | age | sex  
 -|-|-|-  
