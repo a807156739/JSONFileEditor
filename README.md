@@ -2,6 +2,7 @@
 - 这是一个Cocos引擎的扩展插件  
 - 一个可视化编辑简易JSON文件的编辑器
 - 安装扩展插件参照[官方文档](https://docs.cocos.com/creator/manual/zh/extension/install-and-share.html) 
+- 联系我email：807156739@qq.com
 ## 文件格式如下：
 ### JSON文件格式
 - 目前只支持一种格式
